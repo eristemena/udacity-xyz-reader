@@ -17,7 +17,7 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Bacon" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Main theme colors -->
         <!--   your app branding color for the app bar -->
         <item name="colorPrimary">@color/light_blue_500</item>
