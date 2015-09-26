@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:background="?colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:elevation="4dp">
+        app:elevation="@dimen/appbar_elevation">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -43,10 +43,10 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="8dp"
+            android:paddingTop="@dimen/list_top_padding"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingBottom="28dp" />
+            android:paddingBottom="@dimen/list_bottom_padding" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -8,4 +8,8 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="appbar_elevation">4dp</dimen>
+
+    <dimen name="list_top_padding">8dp</dimen>
+    <dimen name="list_bottom_padding">28dp</dimen>
 </resources>
