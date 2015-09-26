@@ -24,6 +24,12 @@
             android:background="@color/photo_placeholder"
             android:scaleType="centerCrop"/>
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/scrim_gradient"
+            />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
