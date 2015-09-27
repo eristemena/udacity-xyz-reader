@@ -78,7 +78,10 @@ public class ArticleListActivity extends AppCompatActivity implements
             if (savedInstanceState.containsKey(CURRENT_ID)) {
                 mCurrentID = savedInstanceState.getLong(CURRENT_ID);
             }
-            loadDetailFragment();
+
+            if(mTwoPane) {
+                loadDetailFragment();
+            }
         }
     }
 
